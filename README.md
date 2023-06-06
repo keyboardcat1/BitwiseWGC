@@ -29,11 +29,11 @@ Let **B** be the number of places on the boat for his purchases
 
 ### The algorithm
   The core algorithm of this program is a Depth First Search graph discovery algorithm. A vertex in this graph represents a safe river bank state, and the adjacent vertices represent the next possible river bank states.
-  The DFS search algorithm is recursive. Each recursion stage goes as following:
-    1. if the current vertex is the desired end vertex, return true
-    2. set the current vertex as visited
-    3. for each adjacent vertex that is not yet visited,  execute DFS for that vertex. Return true if one of them returned true
-    4. Else, return false
+  The DFS search algorithm is a normal recursive DFS. Each recursion stage goes as following:
+  1. if the current vertex is the desired end vertex, return true
+  2. set the current vertex as visited
+  3. for each adjacent vertex that is not yet visited,  execute DFS for that vertex. Return true if one of them returned true
+  4. Else, return false
 
 #### Adjacency list
   Previously, the program consisted of two stages: a complete graph generation stage and a search stage. However, this method was very wasteful, since only a fraction of the vertices were discovered during the search. Now, instead, the adjency list for a given vertex is generated during the DFS search, so no data gets wasted.
