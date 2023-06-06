@@ -8,7 +8,7 @@ The original riddle goes as follows:
 > "A farmer went to a market and purchased a wolf, a goat, and a cabbage. On his way home, the farmer came to the bank of a river and rented a boat. But crossing the river by boat, the farmer could carry only himself and a single one of his purchases: the wolf, the goat, or the cabbage."
 
 
-This optimized program aims to solve this problem for an arbitrary amount of purchases and places on the boat for the purchases.
+This optimized program aims to solve this problem for an arbitrary amount of purchases and places on the boat for the purchases, where every purchase has a single prey except the last.
 
 ## The solution
 
