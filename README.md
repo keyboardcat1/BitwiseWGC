@@ -39,7 +39,7 @@ Let **B** be the number of places on the boat for his purchases
   Previously, the program consisted of two stages: a complete graph generation stage and a search stage. However, this method was very wasteful, since only a fraction of the vertices were discovered during the search. Now, instead, the adjency list for a given vertex is generated during the DFS search, so no data gets wasted.
   The particularity of this DFS algorithm is in step 3. The adjacent vertices are found as following:
    1. For each possible transportation, check if the transportation is possible
-   2. If so, check is the state tranformed by this transportation was visited or not
+   2. If so, check if the state tranformed by this transportation was visited or not
    3. If so, check if the state tranformed by this transportation is safe or not
    4. If so, then the state tranformed by this transportation is an adjacent vertex
   
